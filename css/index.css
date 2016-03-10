@@ -47,7 +47,7 @@ body{
 
 .container .cover .address{
     color:#E91E63;
-    width:25%;
+    width:30%;
     background: white;
     font-weight: 1;
     margin-left: 18%;
@@ -68,7 +68,7 @@ body{
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-    border-color: rgba(136, 183, 213, 0);
+        border-color: rgba(136, 183, 213, 0);
 	border-right-color: white;
 	border-width: 15px;
 	margin-top: 10px;
@@ -91,7 +91,7 @@ body{
     top:-50;
     -webkit-transition: all ease-out 1s;
     overflow: hidden;
-    background-image: url('../images/profile.jpg');
+    background-image: url('../images/profile.png');
     background-position: center;
     background-size: cover;
     border-radius: 50%;
