@@ -20,7 +20,7 @@
           </div>
           <div class="projects">
               <div class="procircle"></div>
-              <div class="header">projects</div>
+              <div class="header">projects ( a few favourite weekend hacks among others )</div>
               <div class="procont">
                    <div class="project">
                       <span>lost in migration</span>
@@ -46,10 +46,10 @@
                           <div class="image"><img src='images/portfolio/imagefun/imagefun0.png'></div>
                           <div class="desc">
                               <div class="link">
-                                  <span class="ti-link"></span><a href='/imagefun' target="_blank">Imagefun</a>
+                                  <span class="ti-link"></span><a href='imagefun' target="_blank">Imagefun</a>
                                   <a href="https://github.com/sourabh2k15/skulvilla" target="_blank"><span class="ti-github"></span></a>
                               </div>
-                              <div>Just writing some JS demos for image processing concepts like contrast streching, thresholding, histogram equalization, segmentation algos</div>
+                              <div>Utilizes canvas image processing abilities. Wrote some JS demos for image processing concepts like contrast streching, thresholding, histogram equalization. </div>
                           </div>
                       </div>
                   </div>
@@ -64,23 +64,23 @@
                                   <span class="ti-link"></span><a href='http://amessenger.herokuapp.com/' target="_blank">Anon Messenger</a>
                                   <a href="https://github.com/sourabh2k15/messenger" target="_blank"><span class="ti-github"></span></a>
                               </div>
-                              <div>It is an anonymous group messenger</div>
+                              <div>It is an anonymous group messenger made with nodejs, socketio and firebase :)</div>
                           </div>
                       </div>
                   </div>
                   
                   <div class="project">
-                      <span>girl and math</span>
+                      <span>videochat</span>
                       <div class="symbol" data-link='GAM' onclick="opendrawer(this)" id='project_4'><img src='images/down.png'></div>
                       <br>
                       <div id='GAM' class="drawer">
                           <div class="image"><img src='images/portfolio/GAM/game.png'></div>
                           <div class="desc">
                               <div class="link">
-                                  <span class="ti-link"></span><a href='https://apps.facebook.com/girlandmath/' target="_blank">Girl And Math</a>
-                                  <a href="https://github.com/sourabh2k15/girlandmath" target="_blank"><span class="ti-github"></span></a>
+                                  <span class="ti-link"></span><a href='https://devpost.com/software/edunet-3y1s2k' target="_blank">Intranet Videochat</a>
+                                  <a href="github.com/sourabh2k15/hackinout_webRTC" target="_blank"><span class="ti-github"></span></a>
                               </div>
-                              <div>a simple javascript game which improves your flair in numbers and decision making :)</div>
+                              <div>an intranet video chat using no external webRTC servers. captures user video through getUserMedia() , puts it to canvas, gets base64 image which is sent to nodejs server and broadcasted to connected clients </div>
                           </div>
                       </div>
                   </div>
