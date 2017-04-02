@@ -46,7 +46,7 @@
                           <div class="image"><img src='images/portfolio/imagefun/imagefun0.png'></div>
                           <div class="desc">
                               <div class="link">
-                                  <span class="ti-link"></span><a href='imagefun' target="_blank">Imagefun</a>
+                                  <span class="ti-link"></span><a href='/imagefun' target="_blank">Imagefun</a>
                                   <a href="https://github.com/sourabh2k15/skulvilla" target="_blank"><span class="ti-github"></span></a>
                               </div>
                               <div>Just writing some JS demos for image processing concepts like contrast streching, thresholding, histogram equalization, segmentation algos</div>

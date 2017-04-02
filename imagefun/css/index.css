@@ -1,0 +1,28 @@
+*{ font-family:Ubuntu,SEGOE UI; border:0;padding:0;}
+
+body{ 
+    font-size:100%;
+    background: black;
+    overflow: hidden;
+}
+
+.container{
+    margin-top: 1%;
+    display: flex;
+    height:95%;
+    flex-flow: row-reverse;
+    width:100%;
+    margin-left: 0%;
+}
+
+#histogram_container{
+    flex-flow: row;
+}
+input[type='range']{
+    outline:none;
+    width:100%;
+}
+canvas{ 
+    border:1px solid yellow;
+    flex: auto;
+}
