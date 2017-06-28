@@ -48,7 +48,7 @@ function fetchDalliance(file, name, remote){
 		if(b == null) log(e);
 		else{
 			var e = performance.now();
-			log("fetch took "+Math.floor(e-s)+" milliSeconds");
+			log("dalliance's fetch took "+Math.floor(e-s)+" milliSeconds");
 			bb = b;
 			//updateView();
 			if(!chrom) chrom = b.idsToChroms[0];
@@ -99,7 +99,7 @@ function query2(){
 	bb.readWigData(chrom, low, high, function(d2){
 		values = d2;
 		console.log(values);
-		log("query took "+Math.floor(performance.now()-s)+" milliSeconds , fetched "+values.length+" items");
+		log("dalliance's query took "+Math.floor(performance.now()-s)+" milliSeconds , fetched "+values.length+" items");
 		if(bb.type=='bigwig')  drawBarChart("browser2", values);
 
 		values = [];
@@ -120,6 +120,7 @@ function updateView(){
 }
 
 function drawBarChart(id, data){
+	console.log("attempting to draw output");
 	var values = [];
 	var labels = [];
 
