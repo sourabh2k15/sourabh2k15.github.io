@@ -6,7 +6,31 @@
     <description>Recent content in Posts on Sourabh&#39;s Log</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 10 Jan 2025 18:51:10 -0800</lastBuildDate>
     <atom:link href="https://sourabh2k15.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shard data, shard model, shard sequence ... shard everything!!!</title>
+      <link>https://sourabh2k15.github.io/posts/shard-everything/</link>
+      <pubDate>Fri, 10 Jan 2025 18:51:10 -0800</pubDate>
+      <guid>https://sourabh2k15.github.io/posts/shard-everything/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In order to scale up your model training / inference on multiple TPU/GPUs you need to know how to shard well and this post my attempt is to build intuition around how to do it well!!&lt;/p&gt;
+&lt;h1 id=&#34;basics-of-neural-network-training&#34;&gt;Basics of Neural Network Training&lt;/h1&gt;
+&lt;h1 id=&#34;collectives&#34;&gt;Collectives&lt;/h1&gt;
+&lt;h1 id=&#34;profiling-code-in-jax&#34;&gt;Profiling code in JAX&lt;/h1&gt;
+&lt;h1 id=&#34;data-parallel&#34;&gt;Data Parallel&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;discuss DDP paper&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;model-parallel&#34;&gt;Model Parallel&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;megatron sharding basics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;optimizer-state-sharding&#34;&gt;Optimizer State Sharding&lt;/h1&gt;
+&lt;h1 id=&#34;fsdp&#34;&gt;FSDP&lt;/h1&gt;
+&lt;h1 id=&#34;sequence-sharding&#34;&gt;Sequence Sharding&lt;/h1&gt;
+&lt;h1 id=&#34;efficient-checkpointing-of-sharded-data&#34;&gt;Efficient Checkpointing of Sharded Data&lt;/h1&gt;
+&lt;h1 id=&#34;sharding-design-patterns&#34;&gt;Sharding Design Patterns&lt;/h1&gt;</description>
+    </item>
   </channel>
 </rss>
